@@ -53,12 +53,15 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index.html">eng</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="indexrus.html">rus</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#donate">Donate</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li> 
+                                
                             </ul>
                         </div>
                     </div>
@@ -460,15 +463,17 @@
                 </div>
             </div>
         </div>
-        <div id="donate" align="center">
+        <div id="donate">
                 <div align="center"><strong>⤋⤋⤋This button is for donations⤋⤋⤋</strong></div>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick" />
-                    <input type="hidden" name="hosted_button_id" value="HBQZ5MTJKU4BJ" />
-                    <input type="image" src="https://www.paypalobjects.com/en_US/PL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                    <img alt="" border="0" src="https://www.paypal.com/en_PL/i/scr/pixel.gif" width="1" height="1" />
-                 </form>
-         </div>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" align="center" id="form">
+                        <input type="hidden" name="cmd" value="_donations" />
+                        <input type="hidden" name="business" value="bbbigdan@gmail.com" />
+                        <input type="hidden" name="item_name" value="Please indicate why you did it." />
+                        <input type="hidden" name="currency_code" value="EUR" />
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+            </div>
         <!-- End Contact -->
         <!--========== END PAGE LAYOUT ==========-->
 
@@ -512,6 +517,7 @@
         <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
         <script src="js/components/masonry.min.js" type="text/javascript"></script>
         <script src="js/components/wow.min.js" type="text/javascript"></script>
+
 
     </body>
     <!-- END BODY -->
