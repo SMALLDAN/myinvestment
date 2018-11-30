@@ -34,7 +34,6 @@ body {
   position: relative;
   font-family: Hind, sans-serif;
 }
-
 p {
   font-size: 15px;
   font-weight: 400;
@@ -53,7 +52,7 @@ li a {
   color: #515769;
 }
 
-a {
+a{
   font-family: Hind, sans-serif;
   color: #81848f;
   outline: 0;
@@ -97,7 +96,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   margin: 0 0 15px;
 }
-
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   color: #515769;
 }
@@ -605,6 +603,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon.is-clicked {
   background: rgba(81, 87, 105, 0);
 }
+
 
 /* Navbar Logo */
 .header .logo {
@@ -1456,3 +1455,7 @@ fieldset[disabled] .btn-theme {
     text-align: right;
   }
 }
+/*#
+ sourceMappingURL=style19.css.map */
+ 
+
