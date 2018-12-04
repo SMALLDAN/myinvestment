@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Hind, sans-serif;
   color: #515769;
   line-height: 1.4;
-  margin: 0 0 15px;
+  margin: -5px 0 15px;
 }
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   color: #515769;
@@ -612,6 +612,7 @@ fieldset[disabled] .btn-theme {
   float: left;
   max-height: 95px;
   line-height: 65px;
+  padding-top: 20px;
 }
 
 .header .logo-wrap {
@@ -1458,4 +1459,3 @@ fieldset[disabled] .btn-theme {
 /*#
  sourceMappingURL=style19.css.map */
  
-
