@@ -502,7 +502,7 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar */
 .header .navbar {
-  margin-bottom: 0;
+  margin-bottom: -44px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   transition-duration: 300ms;
   transition-property: all;
@@ -759,6 +759,7 @@ fieldset[disabled] .btn-theme {
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 40px;
   }
   .header .navbar > .container > .nav-collapse {
     padding-left: 0;
