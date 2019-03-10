@@ -498,6 +498,7 @@ fieldset[disabled] .btn-theme {
 /* Fixed Top */
 .navbar-fixed-top .navbar-collapse {
   max-height: 100%;
+  top:-2%;
 }
 
 /* Navbar */
